@@ -9,7 +9,7 @@ import MarketingApp from './components/MarketingApp';
 import Header from './components/Header';
 
 const generateClassName = createGenerateClassName({
-  production: 'co',
+  productionPrefix: 'co',
 });
 
 export default () => {
